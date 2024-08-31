@@ -1,0 +1,47 @@
+# guess_big_num.py
+# ECS32A
+#
+# How many guesses does it take?
+import random
+
+# Pick a secret number
+secret_num = random.randint(1,100)
+
+# Count the number of guesses
+guesses = 0
+
+# Boolean variable indicatng too many guesses
+too_many_guesses = False
+
+# Start the game
+print("I'm thinking of a number between 1 and 100.")
+
+# Keep asking the user for a guess until they
+# finally guess correctly.
+while True:
+    guess = input("Enter your guess:")
+    guess = int(guess)
+    guesses = guesses + 1
+
+    # Give a hint
+    if guess == secret_num:
+        print("Correct!")
+        break
+    elif guess > secret_num:
+        print("Too high!")
+    else:
+        print("Too low!")
+
+    # You haven't won.
+    # If it's the 10th guess stop the same
+    if guesses == 10:   
+        too_many_guesses = True
+        break
+
+# Tell the user how many guesses it took
+# only if there were not too many. (Optional)
+if too_many_guesses:
+    print("Too many guesses!")
+else:
+    print("It took you", guesses, "guesses")
+
