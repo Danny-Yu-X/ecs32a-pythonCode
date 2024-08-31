@@ -1,0 +1,6 @@
+print("Welcome!")
+print("Go\nSpot\nGo!")
+print("Spot can't", 'say "Hello"')
+print("Spot can't say \"Hello\"")
+print("What do you get from a pampered cow?\nSpoiled milk!")
+print("The answer is", 42)
