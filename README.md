@@ -1,1 +1,1 @@
-# ecs32a-pythonCode
+# ecs32a-pythonProjects
