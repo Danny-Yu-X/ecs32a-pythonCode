@@ -2,7 +2,8 @@
 
 ## Fall Quarter 2023 | University of California, Davis (UC Davis)
 
-## Author: Danny Yu (@Danny-Yu-X)
+## Authors: 
+- Danny Yu (@Danny-Yu-X)
 
 ### These are all the projects I worked on in my ECS 32A (Intro to Programming Class)
 
