@@ -5,5 +5,4 @@
 ## Authors: 
 - Danny Yu (@Danny-Yu-X)
 
-### These are all the projects I worked on in ECS 32A (Intro to Programming). In this class, I learned an introduction to programming and problem-solving in Python.
-
+These are all the projects I worked on in ECS 32A (Intro to Programming). In this class, I learned an introduction to programming and problem-solving in Python.
